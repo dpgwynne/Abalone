@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E39B671E1522533000C1BE6B /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = E39B671D1522533000C1BE6B /* red.png */; };
+		E39B67211522533E00C1BE6B /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = E39B67201522533E00C1BE6B /* blue.png */; };
+		E39B672B15225E9700C1BE6B /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = E39B672A15225E9700C1BE6B /* black.png */; };
+		E3AEA51E15384B5600A48E77 /* Coordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3AEA51D15384B5600A48E77 /* Coordinate.m */; };
+		E3AEA52215384C4400A48E77 /* Move.m in Sources */ = {isa = PBXBuildFile; fileRef = E3AEA52115384C4400A48E77 /* Move.m */; };
+		E3D7CE5D152A435000C9362D /* AbaloneSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D7CE5C152A435000C9362D /* AbaloneSubView.m */; };
+		E3D8B6AA1523A49D003BDDC6 /* AbaloneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D8B6A91523A49D003BDDC6 /* AbaloneModel.m */; };
+		E3E9EE6915224EEF009AF543 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E9EE6815224EEF009AF543 /* UIKit.framework */; };
+		E3E9EE6B15224EEF009AF543 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E9EE6A15224EEF009AF543 /* Foundation.framework */; };
+		E3E9EE6D15224EEF009AF543 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E9EE6C15224EEF009AF543 /* CoreGraphics.framework */; };
+		E3E9EE7315224EEF009AF543 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3E9EE7115224EEF009AF543 /* InfoPlist.strings */; };
+		E3E9EE7515224EEF009AF543 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E9EE7415224EEF009AF543 /* main.m */; };
+		E3E9EE7915224EEF009AF543 /* AbaloneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E9EE7815224EEF009AF543 /* AbaloneAppDelegate.m */; };
+		E3E9EE7C15224EEF009AF543 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3E9EE7A15224EEF009AF543 /* MainStoryboard.storyboard */; };
+		E3E9EE7F15224EEF009AF543 /* AbaloneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E9EE7E15224EEF009AF543 /* AbaloneViewController.m */; };
+		E3E9EE8715224F7F009AF543 /* AbaloneView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E9EE8615224F7F009AF543 /* AbaloneView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E39B671D1522533000C1BE6B /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = Abalone/red.png; sourceTree = "<group>"; };
+		E39B67201522533E00C1BE6B /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue.png; path = Abalone/blue.png; sourceTree = "<group>"; };
+		E39B672A15225E9700C1BE6B /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black.png; path = Abalone/black.png; sourceTree = "<group>"; };
+		E3AEA51C15384B5600A48E77 /* Coordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Coordinate.h; path = Abalone/Coordinate.h; sourceTree = "<group>"; };
+		E3AEA51D15384B5600A48E77 /* Coordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Coordinate.m; path = Abalone/Coordinate.m; sourceTree = "<group>"; };
+		E3AEA52015384C4400A48E77 /* Move.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Move.h; path = Abalone/Move.h; sourceTree = "<group>"; };
+		E3AEA52115384C4400A48E77 /* Move.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Move.m; path = Abalone/Move.m; sourceTree = "<group>"; };
+		E3D7CE5B152A435000C9362D /* AbaloneSubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbaloneSubView.h; path = Abalone/AbaloneSubView.h; sourceTree = "<group>"; };
+		E3D7CE5C152A435000C9362D /* AbaloneSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbaloneSubView.m; path = Abalone/AbaloneSubView.m; sourceTree = "<group>"; };
+		E3D8B6A81523A49D003BDDC6 /* AbaloneModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbaloneModel.h; path = Abalone/AbaloneModel.h; sourceTree = "<group>"; };
+		E3D8B6A91523A49D003BDDC6 /* AbaloneModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbaloneModel.m; path = Abalone/AbaloneModel.m; sourceTree = "<group>"; };
+		E3E9EE6415224EEF009AF543 /* Abalone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Abalone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E9EE6815224EEF009AF543 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E3E9EE6A15224EEF009AF543 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E3E9EE6C15224EEF009AF543 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E3E9EE7015224EEF009AF543 /* Abalone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Abalone-Info.plist"; sourceTree = "<group>"; };
+		E3E9EE7215224EEF009AF543 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E3E9EE7415224EEF009AF543 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3E9EE7615224EEF009AF543 /* Abalone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Abalone-Prefix.pch"; sourceTree = "<group>"; };
+		E3E9EE7715224EEF009AF543 /* AbaloneAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaloneAppDelegate.h; sourceTree = "<group>"; };
+		E3E9EE7815224EEF009AF543 /* AbaloneAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaloneAppDelegate.m; sourceTree = "<group>"; };
+		E3E9EE7B15224EEF009AF543 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E3E9EE7D15224EEF009AF543 /* AbaloneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AbaloneViewController.h; path = Abalone/AbaloneViewController.h; sourceTree = "<group>"; };
+		E3E9EE7E15224EEF009AF543 /* AbaloneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AbaloneViewController.m; path = Abalone/AbaloneViewController.m; sourceTree = "<group>"; };
+		E3E9EE8515224F7F009AF543 /* AbaloneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbaloneView.h; path = Abalone/AbaloneView.h; sourceTree = "<group>"; };
+		E3E9EE8615224F7F009AF543 /* AbaloneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbaloneView.m; path = Abalone/AbaloneView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3E9EE6115224EEF009AF543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E9EE6915224EEF009AF543 /* UIKit.framework in Frameworks */,
+				E3E9EE6B15224EEF009AF543 /* Foundation.framework in Frameworks */,
+				E3E9EE6D15224EEF009AF543 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3AEA5231538544600A48E77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3D8B6A81523A49D003BDDC6 /* AbaloneModel.h */,
+				E3D8B6A91523A49D003BDDC6 /* AbaloneModel.m */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E3AEA5241538545B00A48E77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3E9EE8515224F7F009AF543 /* AbaloneView.h */,
+				E3E9EE8615224F7F009AF543 /* AbaloneView.m */,
+				E3D7CE5B152A435000C9362D /* AbaloneSubView.h */,
+				E3D7CE5C152A435000C9362D /* AbaloneSubView.m */,
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E3AEA5251538548D00A48E77 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3E9EE7D15224EEF009AF543 /* AbaloneViewController.h */,
+				E3E9EE7E15224EEF009AF543 /* AbaloneViewController.m */,
+			);
+			name = Controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E3AEA526153854A700A48E77 /* Coordinates */ = {
+			isa = PBXGroup;
+			children = (
+				E3AEA51C15384B5600A48E77 /* Coordinate.h */,
+				E3AEA51D15384B5600A48E77 /* Coordinate.m */,
+				E3AEA52015384C4400A48E77 /* Move.h */,
+				E3AEA52115384C4400A48E77 /* Move.m */,
+			);
+			name = Coordinates;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E3AEA527153854C400A48E77 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E39B672A15225E9700C1BE6B /* black.png */,
+				E39B67201522533E00C1BE6B /* blue.png */,
+				E39B671D1522533000C1BE6B /* red.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E3E9EE5915224EEF009AF543 = {
+			isa = PBXGroup;
+			children = (
+				E3E9EE6E15224EEF009AF543 /* Abalone */,
+				E3E9EE6715224EEF009AF543 /* Frameworks */,
+				E3E9EE6515224EEF009AF543 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3E9EE6515224EEF009AF543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3E9EE6415224EEF009AF543 /* Abalone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3E9EE6715224EEF009AF543 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3E9EE6815224EEF009AF543 /* UIKit.framework */,
+				E3E9EE6A15224EEF009AF543 /* Foundation.framework */,
+				E3E9EE6C15224EEF009AF543 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3E9EE6E15224EEF009AF543 /* Abalone */ = {
+			isa = PBXGroup;
+			children = (
+				E3AEA527153854C400A48E77 /* Images */,
+				E3AEA526153854A700A48E77 /* Coordinates */,
+				E3AEA5251538548D00A48E77 /* Controller */,
+				E3AEA5241538545B00A48E77 /* View */,
+				E3AEA5231538544600A48E77 /* Model */,
+				E3E9EE7715224EEF009AF543 /* AbaloneAppDelegate.h */,
+				E3E9EE7815224EEF009AF543 /* AbaloneAppDelegate.m */,
+				E3E9EE7A15224EEF009AF543 /* MainStoryboard.storyboard */,
+				E3E9EE6F15224EEF009AF543 /* Supporting Files */,
+			);
+			path = Abalone;
+			sourceTree = "<group>";
+		};
+		E3E9EE6F15224EEF009AF543 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3E9EE7015224EEF009AF543 /* Abalone-Info.plist */,
+				E3E9EE7115224EEF009AF543 /* InfoPlist.strings */,
+				E3E9EE7415224EEF009AF543 /* main.m */,
+				E3E9EE7615224EEF009AF543 /* Abalone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3E9EE6315224EEF009AF543 /* Abalone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E9EE8215224EEF009AF543 /* Build configuration list for PBXNativeTarget "Abalone" */;
+			buildPhases = (
+				E3E9EE6015224EEF009AF543 /* Sources */,
+				E3E9EE6115224EEF009AF543 /* Frameworks */,
+				E3E9EE6215224EEF009AF543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Abalone;
+			productName = Abalone;
+			productReference = E3E9EE6415224EEF009AF543 /* Abalone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3E9EE5B15224EEF009AF543 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E3E9EE5E15224EEF009AF543 /* Build configuration list for PBXProject "Abalone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E3E9EE5915224EEF009AF543;
+			productRefGroup = E3E9EE6515224EEF009AF543 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3E9EE6315224EEF009AF543 /* Abalone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3E9EE6215224EEF009AF543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E9EE7315224EEF009AF543 /* InfoPlist.strings in Resources */,
+				E3E9EE7C15224EEF009AF543 /* MainStoryboard.storyboard in Resources */,
+				E39B671E1522533000C1BE6B /* red.png in Resources */,
+				E39B67211522533E00C1BE6B /* blue.png in Resources */,
+				E39B672B15225E9700C1BE6B /* black.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3E9EE6015224EEF009AF543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E9EE7515224EEF009AF543 /* main.m in Sources */,
+				E3E9EE7915224EEF009AF543 /* AbaloneAppDelegate.m in Sources */,
+				E3E9EE7F15224EEF009AF543 /* AbaloneViewController.m in Sources */,
+				E3E9EE8715224F7F009AF543 /* AbaloneView.m in Sources */,
+				E3D8B6AA1523A49D003BDDC6 /* AbaloneModel.m in Sources */,
+				E3D7CE5D152A435000C9362D /* AbaloneSubView.m in Sources */,
+				E3AEA51E15384B5600A48E77 /* Coordinate.m in Sources */,
+				E3AEA52215384C4400A48E77 /* Move.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E3E9EE7115224EEF009AF543 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3E9EE7215224EEF009AF543 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E3E9EE7A15224EEF009AF543 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3E9EE7B15224EEF009AF543 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3E9EE8015224EEF009AF543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E3E9EE8115224EEF009AF543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3E9EE8315224EEF009AF543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Abalone/Abalone-Prefix.pch";
+				INFOPLIST_FILE = "Abalone/Abalone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E3E9EE8415224EEF009AF543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Abalone/Abalone-Prefix.pch";
+				INFOPLIST_FILE = "Abalone/Abalone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3E9EE5E15224EEF009AF543 /* Build configuration list for PBXProject "Abalone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E9EE8015224EEF009AF543 /* Debug */,
+				E3E9EE8115224EEF009AF543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3E9EE8215224EEF009AF543 /* Build configuration list for PBXNativeTarget "Abalone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E9EE8315224EEF009AF543 /* Debug */,
+				E3E9EE8415224EEF009AF543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3E9EE5B15224EEF009AF543 /* Project object */;
+}
